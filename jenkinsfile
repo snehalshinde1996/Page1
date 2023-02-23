@@ -1,0 +1,25 @@
+pipeline {
+  agent 
+  label {
+  label ("built-in")
+  }
+  stages (stage-1)
+  {
+  steps {
+   sh "mvn package"
+   
+  
+  
+  
+  }
+  
+  
+  
+  
+  }
+  
+  
+  
+  
+
+  }
